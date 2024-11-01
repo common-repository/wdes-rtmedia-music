@@ -1,0 +1,99 @@
+#rtmedia-wdes-music .wdes-music-toggle {
+    font-size: 14px;
+    margin: 0;
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    border: 1px solid #e9e9e9;
+}
+#rtmedia-wdes-music .wdes-music-group .rtm-option-wrapper {
+    border-right: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    padding: 25px 20px;
+    margin: 0 0 -1px!important;
+    overflow: hidden;
+    border-bottom: 1px solid #e9e9e9;
+}
+.wdes-music-field p strong {
+	padding: 0 0px 0 10px;	
+}
+.wdes-music-field p span,
+.wdes-music-field p input,
+.wdes-music-field p i {
+    border: 1px solid #e1e1e1 !important;
+    border-radius: 3px !important;
+}
+.wdes-music-field p input {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.wdes-music-field p i {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.wdes-music-field p span,
+.wdes-music-field p i {
+    display: inline-block;
+}
+.wdes-music-field p i,
+.wdes-music-field .wdes-music-genre-add {
+    cursor: pointer;
+}
+.wdes-music-field p span {
+	background-color: #f1f1f1;
+	margin: 0 5px 5px 0;
+}
+.wdes-music-field p input {
+    padding: 0 10px !important;
+    line-height: 30px !important;
+    color: #999;
+}
+.wdes-music-field p input[type=number] {
+    padding-right: 0 !important;
+}
+.wdes-music-field p input:focus {
+    border-color: #999 !important;
+    color: #23282d;
+}
+.wdes-music-field .wdes-music-genre-add {
+	padding: 0 15px !important;
+	line-height: 34px !important;
+	text-transform: uppercase !important;
+	font-size: 13px !important;
+	margin: 0 !important;
+}
+.wdes-music-field p i {
+    background-color: #d54e21;
+    background-color: rgb(255, 255, 255);
+    padding: 0 5px;
+    line-height: 30px;
+    font-style: normal;
+}
+.wdes-music-field p i:hover,
+.wdes-music-field .wdes-music-genre-add:hover {
+	color: #fff;
+}
+.wdes-music-field p i:hover {
+    background-color: #d54e21;
+    border: 1px solid #000 !important;
+}
+.wdes-music-field .wdes-music-genre-add:hover {
+	background-color: #0085ba;
+	border: 1px solid #006799;
+}
+#rtmedia-wdes-music label {
+ 	margin: 0 20px 10px 0;
+    display: inline-block;
+}
+#rtmedia-wdes-music .rtm-option-title .name {
+    line-height: 26px
+}
+#rtmedia-wdes-music .rtm-option-title .name,
+#rtmedia-wdes-music .rtm-option-title .rtm-tooltip {
+    display: inline-block;
+    vertical-align: middle;
+}
+#rtmedia-wdes-music .rtm-option-title .rtm-tip {
+    text-transform: none;
+}
